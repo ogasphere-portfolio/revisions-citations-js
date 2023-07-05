@@ -1,0 +1,32 @@
+<h1 id="citations">Citations</h1>
+<p>Un peu comme <a href="https://www.webagencyfail.com/page/2/index.html">www.webagencyfail.com</a>, on va se créer un petit site de citations des plus beaux râtés issus du monde du développement web, le tout en Javascript 🎉</p>
+<h2 id="étapes">Étapes</h2>
+<h3 id="1-charger-la-première-excuse">1. Charger la première excuse</h3>
+<ul>
+<li>Au chargement du DOM, afficher la première excuse de dév du tableau (dans <code>quote.js</code>)</li>
+<li>Coder et utiliser la méthode <code>app.displayCurrentQuote()</code> qui permet d'afficher la <em>citation courante</em></li>
+<li><em>citation courante</em> signifie la citation pour l'index <code>app.currentQuoteIndex</code> dans le tableau des citations (dans <code>quote.js</code>)</li>
+</ul>
+<h3 id="2-pagination">2. Pagination</h3>
+<ul>
+<li>Au clic sur le bouton "next"</li>
+<li>modifier la propriété <code>app.currentQuoteIndex</code></li>
+<li>afficher la citation suivante</li>
+<li>Au clic sur le bouton "previous"</li>
+<li>modifier la propriété <code>app.currentQuoteIndex</code></li>
+<li>afficher la citation précédente</li>
+<li>Au clic sur le bouton "first"</li>
+<li>modifier la propriété <code>app.currentQuoteIndex</code></li>
+<li>afficher la première citation</li>
+<li>Au clic sur le bouton "last"</li>
+<li>modifier la propriété <code>app.currentQuoteIndex</code></li>
+<li>afficher la dernière citation</li>
+</ul>
+<h3 id="3-ajout-dune-citation">3. Ajout d'une citation</h3>
+<ul>
+<li>Lors de la soumission du formulaire d'ajout</li>
+<li>intercepter le formulaire en JS</li>
+<li>ajouter la citation et l'auteur dans le tableau de citations</li>
+<li>en utilisant la pagination, la nouvelle citation devrait apparaître en dernier</li>
+<li>Bien entendu, l'ajout n'est pas persistant, donc au refresh de la page, tous les ajouts seront perdus (on verra en S07 comment améliorer cela 😉)</li>
+</ul>
